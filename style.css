@@ -1,0 +1,71 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ListData */
+.list_data {
+  display: flex;
+  flex-direction: column;
+
+  width: 800px;
+  height: 420px;
+  margin: 0 auto 40px;
+  padding: 20px;
+
+  overflow: auto;
+
+  background: aliceblue;
+  border: 2px solid #e3e3e3;
+}
+
+.list_data__item {
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0px 9px 14px rgb(0 0 0 / 16%);
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.list_data__item_name {
+  text-transform: uppercase;
+}
+
+.list_data__item_email {
+  color: #b3b3b3;
+
+  font-size: 14px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #b8d4f8;
+}
+
+
+/* buttonAddList */
+#add {
+  font-family: 'Montserrat', sans-serif;
+
+  position: fixed;
+  top: 10px;
+  left: 15px;
+
+  height: 35px;
+  font-size: 15px;
+
+  background-color: #fff;
+  border: 2px solid #e3e3e3;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: box-shadow .2s linear,border-color .2s linear;
+
+}
+
+#add:hover {
+border-color: rgba(159, 207, 243, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  outline: 0;
+}
